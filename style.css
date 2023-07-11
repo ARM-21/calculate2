@@ -1,0 +1,89 @@
+html body {
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    /* height:100%; */
+    width:100%;
+}
+body{
+    height:100vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.calculator {
+   height:300px;
+   width:200px;
+    background-color: rgb(50, 45, 45);
+    border-radius:12px;
+    display: flex;
+    flex-direction:column;
+    box-shadow:5px 2px 2px 2px;
+}
+.section form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    
+}
+.display {
+    color:white;
+    background-color: rgb(44, 38, 38);
+    width:200px;
+    border-radius:12px;
+    height:90px;
+    font-size:15px;
+    text-align:right;
+    margin-top:10px;
+    margin-left:5px;
+    border:2px solid yellow;
+    pointer-events: none;
+}
+.section2 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* justify-items: sp; */
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-top:10px;
+    /* place-items: f; */
+    width:200px;
+    position: relative;
+    height:200px;
+    
+}
+
+
+.buttons{
+    position: absolute;
+    width:200px;
+    height:150px;
+    margin-left:12px;
+  left: 5px;
+    /* justify-content: space-evenly; */
+    padding: 0px;
+}
+.buttons button {
+    
+   /* place-items: center; */
+   /* text-align: center; */
+    height:20%;
+    width:20%;
+    padding: 15px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.btn {
+    /* font-size: ; */
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+    /* text-align:center ; */
+
+}
+.orange {
+    background-color:orangered;
+}
