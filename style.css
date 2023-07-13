@@ -42,6 +42,11 @@ body{
     margin-left:5px;
     border:2px solid yellow;
     pointer-events: none;
+    position: relative;
+}
+.displa{
+    position:absolute;
+    color:white;
 }
 .section2 {
     display:flex;
